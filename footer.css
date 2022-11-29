@@ -1,0 +1,13 @@
+#footerPanel {
+	/*display: inline-block;*/
+	background-color: white;
+	position: relative;
+	height: 70px;
+	margin-top: -70px;
+	clear: both;
+}
+
+#footerPanel img {
+	margin-top: 0.4%;
+	width: 2%;
+}

@@ -1,0 +1,43 @@
+@import "header.css";
+@import "footer.css";
+@import "container.css";
+
+#bgText {
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	background-color: grey;
+	border-radius: 5%;
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 50%;
+	padding: 20px;
+	text-align: left;
+}
+
+#divForm {
+	margin-left: 5%;
+	float: left;
+}
+
+.inputBox {
+	height: 25px;
+}
+
+.inputBoxWide {
+	height: 25px;
+	width: 100%;
+}
+
+#terms {
+	text-decoration: none;
+	color: blue;
+}
+
+button {
+	padding: 0.5em;
+	border-radius: 5px;
+}
